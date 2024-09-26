@@ -1,0 +1,27 @@
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo levemente cinza */
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #343a40; /* Fundo mais escuro */
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}

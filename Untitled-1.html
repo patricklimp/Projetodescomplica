@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Música</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="bg-primary text-white text-center py-3">
+    <div class="container">
+        <h1>Bem-vindo ao Meu Site de Música</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#genres">Gêneros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#artists">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#events">Eventos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="container mt-4">
+    <div id="genres" class="bg-light p-4 rounded mb-4">
+        <h2 class="text-center">Gêneros Musicais</h2>
+        <p class="text-center">Explore diversos gêneros musicais como Pop, Rock, Jazz, Clássico e muitos outros. Descubra o estilo que mais combina com você!</p>
+    </div>
+
+    <div id="artists" class="bg-secondary text-white p-4 rounded mb-4">
+        <h2 class="text-center">Artistas em Destaque</h2>
+        <p class="text-center">Conheça os artistas que estão dominando as paradas de sucesso! Acompanhe suas novidades e saiba mais sobre suas trajetórias musicais.</p>
+    </div>
+
+    <div id="events" class="bg-light p-4 rounded mb-4">
+        <h2 class="text-center">Próximos Eventos</h2>
+        <p class="text-center">Fique por dentro dos próximos shows e festivais musicais! Garanta seu ingresso e não perca a chance de ver seu artista favorito ao vivo.</p>
+    </div>
+</main>
+
+<footer class="bg-primary text-white text-center py-3">
+    <p>&copy; <span id="year"></span> Meu Site de Música. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+
